@@ -9,7 +9,11 @@ venv/
 # Model weights and artifacts
 *.pt
 *.pth
-outputs/
+outputs/*
+!outputs/pdatt_dataset_ban/
+outputs/pdatt_dataset_ban/*
+!outputs/pdatt_dataset_ban/history.csv
+!outputs/pdatt_dataset_ban/history.png
 previews/
 
 # Large datasets
