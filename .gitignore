@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual envs
+.venv/
+venv/
+
+# Model weights and artifacts
+*.pt
+*.pth
+outputs/
+previews/
+
+# Large datasets
+kaggle_3m/
+lgg-mri-segmentation/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
